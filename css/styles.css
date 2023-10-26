@@ -1,0 +1,87 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0px 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background: #FFF;
+}
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    color: #696969;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.book-btn{
+    padding: 13px 50px;
+    background-color: #FF5403;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.banner-container{
+    width: 100%;
+    height: 722px;
+    background-image: url("../images/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.travel-buddy{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.72px;
+}
+.text-travel{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.dsc-btn{
+   
+    padding: 20px 76px;
+    background-color: #FF5403;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.dsc-border{
+ 
+    height: 13px;
+    width: 100%;
+    margin-top: 50px;
+}
